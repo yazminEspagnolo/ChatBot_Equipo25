@@ -1,7 +1,14 @@
 class Administrador
 {
-    public DarDeBaja(OfertasDeServicios)
+    public void IndicateCategories(JobOffers) : Trabajador
     {
-        return (OfertasDeServicios.DarDeBaja());
+        return (JobOffers.IndicateCategories());
     }
+    
+    private void CancelOffers(JobOffers) : Trabajador
+    {
+        return (JobOffers.CancelOffers());
+    }
+
+
 }
