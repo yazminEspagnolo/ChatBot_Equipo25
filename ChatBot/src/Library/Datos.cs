@@ -17,18 +17,48 @@ namespace Library
             Apellido = Console.ReadLine();
         }
 
-        public string Direccion { get; set; }
-        public void IngresarDireccion()
+        public string Direccion ()
         {
-            Ubicacion ubicacion = new Ubicacion();
-            ubicacion.IngresarPais();
-            ubicacion.IngresarProvincia();
-            ubicacion.IngresarCiudad();
-            ubicacion.IngresarBarrio();
-            ubicacion.IngresarCalle();
-            ubicacion.IngresarNumero();
-            Direccion = ubicacion.Direccion;
+        public string Pais { get; set; }
+        public void IngresarPais()
+        {
+            Console.WriteLine("Ingrese su país: ");
+            Pais = Console.ReadLine();
         }
+        public string Departamento { get; set; }
+        public void IngresarDepartamento()
+        {
+            Console.WriteLine("Ingrese su departamento: ");
+            Departamento = Console.ReadLine();
+        }
+        public string Ciudad { get; set; }
+        public void IngresarCiudad()
+        {
+            Console.WriteLine("Ingrese su ciudad: ");
+            Ciudad = Console.ReadLine();
+        }
+        public string Barrio { get; set; }
+        public void IngresarBarrio()
+        {
+            Console.WriteLine("Ingrese su barrio: ");
+            Barrio = Console.ReadLine();
+        }
+        public string Calle { get; set; }
+        public void IngresarCalle()
+        {
+            Console.WriteLine("Ingrese su calle: ");
+            Calle = Console.ReadLine();
+        }
+        public string Numero { get; set; }
+        public void IngresarNumero()
+        {
+            Console.WriteLine("Ingrese su número: ");
+            Numero = Console.ReadLine();
+        }
+
+        Direccion = Calle + " " + Numero + ", " + Barrio + ", " + Ciudad + ", " + Provincia + ", " + Pais;
+        }
+    
 
         public string Telefono { get; set; }
         public void IngresarTelefono()
