@@ -2,6 +2,10 @@ class Trabajador
 {
     private void SeeEmployeeReputation{get; set;}
     
+    Register nuevoRegistroTrabajador("nuevoRegistroTrabajador")
+    nuevoRegistroEmpleador.Nombre = new Nombre();
+    // Lo mismo con cada dato; Apellido, driceccion, etc.
+    
     private string MakeOfferServices()
     {
         Console.WriteLine(Administrador.CategoriesList);
