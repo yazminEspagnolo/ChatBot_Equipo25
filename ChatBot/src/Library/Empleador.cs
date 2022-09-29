@@ -6,6 +6,10 @@ class Empleador
     
     private string SeeOffersReputation{get; set;}
     
+    Register nuevoRegistroEmpleador = new Register("nuevoRegistroEmpleador")
+    nuevoRegistroEmpleador.Nombre = new Nombre();
+    // Lo mismo con cada dato; Apellido, driceccion, etc.
+    
     public void ContactWorker()
     {
     }
