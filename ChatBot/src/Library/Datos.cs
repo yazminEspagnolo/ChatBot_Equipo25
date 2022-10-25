@@ -1,7 +1,7 @@
 using System;
 namespace Library
 {
-    public class Register
+    public class Datos
     {
         public string Nombre { get; set; }
         public void IngresarNombre()
