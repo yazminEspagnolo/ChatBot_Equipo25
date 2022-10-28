@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yazmin Espagnolo\\OneDrive\\Escritorio\\Yayi\\UCU\\2do semestre\\Programación II\\prog2\\Ejercicios\\ChatBot\\src\\Program\\Program.csproj": {}
+    "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Program\\Program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yazmin Espagnolo\\OneDrive\\Escritorio\\Yayi\\UCU\\2do semestre\\Programación II\\prog2\\Ejercicios\\ChatBot\\src\\Program\\Program.csproj": {
+    "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yazmin Espagnolo\\OneDrive\\Escritorio\\Yayi\\UCU\\2do semestre\\Programación II\\prog2\\Ejercicios\\ChatBot\\src\\Program\\Program.csproj",
-        "projectName": "Program",
-        "projectPath": "C:\\Users\\Yazmin Espagnolo\\OneDrive\\Escritorio\\Yayi\\UCU\\2do semestre\\Programación II\\prog2\\Ejercicios\\ChatBot\\src\\Program\\Program.csproj",
-        "packagesPath": "C:\\Users\\Yazmin Espagnolo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yazmin Espagnolo\\OneDrive\\Escritorio\\Yayi\\UCU\\2do semestre\\Programación II\\prog2\\Ejercicios\\ChatBot\\src\\Program\\obj\\",
+        "projectUniqueName": "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Library\\Library.csproj",
+        "projectName": "Library",
+        "projectPath": "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Library\\Library.csproj",
+        "packagesPath": "C:\\Users\\NinoM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yazmin Espagnolo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\NinoM\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -52,7 +53,64 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Program\\Program.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Program\\Program.csproj",
+        "projectName": "Program",
+        "projectPath": "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Program\\Program.csproj",
+        "packagesPath": "C:\\Users\\NinoM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Program\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NinoM\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Library\\Library.csproj": {
+                "projectPath": "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Library\\Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

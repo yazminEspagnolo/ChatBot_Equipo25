@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Yazmin Espagnolo\\.nuget\\packages\\": {}
+    "C:\\Users\\NinoM\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yazmin Espagnolo\\OneDrive\\Escritorio\\Yayi\\UCU\\2do semestre\\Programación II\\prog2\\Ejercicios\\ChatBot\\src\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "C:\\Users\\Yazmin Espagnolo\\OneDrive\\Escritorio\\Yayi\\UCU\\2do semestre\\Programación II\\prog2\\Ejercicios\\ChatBot\\src\\Library\\Library.csproj",
-      "packagesPath": "C:\\Users\\Yazmin Espagnolo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yazmin Espagnolo\\OneDrive\\Escritorio\\Yayi\\UCU\\2do semestre\\Programación II\\prog2\\Ejercicios\\ChatBot\\src\\Library\\obj\\",
+      "projectPath": "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Library\\Library.csproj",
+      "packagesPath": "C:\\Users\\NinoM\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NinoM\\Desktop\\OneDrive - Universidad Católica del Uruguay\\UCU\\SEGUNDO SEMESTRE\\PROGRAMACIÓN II\\ChatBot_Equipo25\\ChatBot\\src\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Yazmin Espagnolo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\NinoM\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -49,7 +49,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
